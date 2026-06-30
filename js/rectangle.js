@@ -12,6 +12,15 @@ const drawFilters = (left, top, rectW, rectH) => {
         case FILTERS.PIXELATE:
             drawPixelateFilter(left, top, rectW, rectH);
             break;
+        case FILTERS.THERMAL:
+            drawThermalFilter(left, top, rectW, rectH);
+            break;
+        case FILTERS.NEON_EDGE:
+            drawNeonEdgeFilter(left, top, rectW, rectH);
+            break;
+        case FILTERS.Kaleidoscope:
+            drawKaleidoscopeFilter(left, top, rectW, rectH);
+            break;
         default:
             drawOriginalFilter(left, top, rectW, rectH);
             break;

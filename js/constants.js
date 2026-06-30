@@ -15,6 +15,9 @@ const FILTERS = {
     GRAYSCALE: "grayscale",
     ASCII: "ascii",
     PIXELATE: "pixelate",
+    THERMAL: "thermal",
+    NEON_EDGE: "neon edge",
+    KALEIDOSCOPE: "Kaleidoscope",
 };
 
 let currentFilter = FILTERS.ASCII;
